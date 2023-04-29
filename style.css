@@ -24,6 +24,11 @@ body {
     font-weight: bolder;
 }
 
+.navbar-brand:hover{
+    background-color:rgb(23, 22, 22);
+    color: white;
+}
+
 #nav{
     background-color: black;
     color: whitesmoke;
