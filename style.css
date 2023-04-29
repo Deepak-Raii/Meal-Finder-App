@@ -1,0 +1,107 @@
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color:#695c5c;
+    color: white;
+}
+
+/* header heading section */
+#Find_meal {
+    margin-top: 150px;
+    /* background-color: #f7af12; */
+}
+
+.navbar-brand{
+    color: #f7eff0;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+#nav{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.nav-list{
+    text-decoration: none;
+    color: rgb(235, 41, 41);
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #1c1d1d;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.nav-list:hover{
+    background-color: white;
+    color: black;
+    padding: 8px 18px;
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 500px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 12px;
+    background-color: #212529;
+    color: whitesmoke;
+    margin-top: -20px;
+}
+
+/* meal card */
+#card {
+    background-color: #f3a90a;
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 50%;
+}
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color:#3067ff ;
+}
+
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+#favourites-body{
+    background-color:#9ecdfc ;
+}
